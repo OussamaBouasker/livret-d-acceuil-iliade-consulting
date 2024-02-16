@@ -1,3 +1,29 @@
-.nav{
+.nav {
     font-size: x-large;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+color {
+    color: #ed6324;
+}
+
+.ligne {
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+.btn-info {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #ed6324;
+    --bs-btn-border-color: #ed6324;
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-border-color: #000000;
+}
+
+nav.scrolled {
+    background-color: #a85d5d;
+    /* Changez la couleur selon vos préférences */
+    /* Ajoutez d'autres styles pour la barre de navigation après le défilement */
 }
