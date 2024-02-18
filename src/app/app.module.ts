@@ -11,7 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NotificationComponent } from './notification/notification.component';
+
 import { loginComponent } from './login/login.component';
 
 @NgModule({
@@ -21,7 +21,6 @@ import { loginComponent } from './login/login.component';
     HomeComponent,
     loginComponent,
     FooterComponent,
-    NotificationComponent
   ],
   imports: [
     BrowserModule,
