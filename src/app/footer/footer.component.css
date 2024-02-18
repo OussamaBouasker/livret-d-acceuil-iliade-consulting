@@ -1,0 +1,65 @@
+
+.footer {
+  background-color: #02053d; /* Couleur de fond du pied de page */
+  color: #fff; /* Couleur du texte */
+  padding: 40px 0; /* Espacement intérieur du pied de page */
+}
+
+.footer .container {
+  max-width: 1200px; /* Largeur maximale du contenu du pied de page */
+  margin: 0 auto; /* Centrer le contenu */
+}
+
+.footer-nav {
+  display: flex; /* Utiliser la mise en ligne flex pour aligner les éléments horizontalement */
+  align-items: center; /* Aligner les éléments verticalement */
+}
+
+.footer-nav .title {
+  margin-right: 20px; /* Espacement à droite du titre */
+  font-size: 24px; /* Taille de police du titre */
+}
+
+.footer-nav ul {
+  list-style: none; /* Supprimer les puces de la liste */
+  margin: 0; /* Supprimer les marges de la liste */
+  padding: 0; /* Supprimer les rembourrages de la liste */
+}
+
+.footer-nav ul li {
+  display: inline-block; /* Afficher les éléments de liste en ligne */
+  margin-right: 20px; /* Espacement entre les éléments de liste */
+}
+
+.footer-nav ul li:last-child {
+  margin-right: 0; /* Supprimer l'espacement à droite pour le dernier élément de liste */
+}
+
+.footer-nav ul li a {
+  color: #fff; /* Couleur du lien */
+  text-decoration: none; /* Supprimer le soulignement du lien */
+  font-size: 18px; /* Taille de police des liens */
+  transition: color 0.3s; /* Transition fluide de la couleur du texte */
+}
+
+.footer-nav ul li a:hover {
+  color: #ffd700; /* Couleur du lien au survol */
+}
+
+.credits {
+  margin-top: 20px; /* Espacement par rapport au contenu précédent */
+  text-align: center; /* Alignement du texte au centre */
+}
+
+.copyright {
+  font-size: 14px; /* Taille de police du texte de copyright */
+}
+
+/* Style pour l'image du logo */
+.footer-nav .title img {
+  width: 40px; /* Largeur de l'image */
+  height: 40px; /* Hauteur de l'image */
+  margin-right: 10px; /* Espacement à droite de l'image */
+  border-radius: 50%; /* Bordure arrondie pour l'image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre portée pour l'image */
+}

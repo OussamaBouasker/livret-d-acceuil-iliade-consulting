@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import "~@fortawesome/fontawesome-free/css/all.css";
 
 import { FooterComponent } from './footer.component';
 
