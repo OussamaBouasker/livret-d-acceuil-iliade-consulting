@@ -14,6 +14,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { CoursComponent } from './cours/cours.component';
 import { LogoutComponent } from './logout/logout.component';
+import { OppsComponent } from './opps/opps.component';
 
 @NgModule({
   declarations:[
@@ -23,7 +24,8 @@ import { LogoutComponent } from './logout/logout.component';
     FooterComponent,
 
     CoursComponent,
-      LogoutComponent
+      LogoutComponent,
+      OppsComponent
   ],
   imports: [
     BrowserModule,
