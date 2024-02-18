@@ -15,7 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CoursComponent } from './cours/cours.component';
 
 @NgModule({
-  declarations: [
+  declarations:[
     AppComponent,
     NavbarComponent,
     HomeComponent,
