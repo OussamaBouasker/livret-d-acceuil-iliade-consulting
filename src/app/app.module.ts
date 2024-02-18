@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NotificationComponent } from './notification/notification.component';
+import { CoursComponent } from './cours/cours.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NotificationComponent } from './notification/notification.component';
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    NotificationComponent
+    NotificationComponent,
+    CoursComponent
   ],
   imports: [
     BrowserModule,
