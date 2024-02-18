@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { CoursComponent } from './cours/cours.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations:[
@@ -21,7 +22,8 @@ import { CoursComponent } from './cours/cours.component';
     HomeComponent,
     FooterComponent,
 
-    CoursComponent
+    CoursComponent,
+      LogoutComponent
   ],
   imports: [
     BrowserModule,
