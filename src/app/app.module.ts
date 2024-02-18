@@ -11,7 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NotificationComponent } from './notification/notification.component';
+
 import { CoursComponent } from './cours/cours.component';
 
 @NgModule({
@@ -20,7 +20,7 @@ import { CoursComponent } from './cours/cours.component';
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    NotificationComponent,
+
     CoursComponent
   ],
   imports: [
